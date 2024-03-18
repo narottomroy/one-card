@@ -1,0 +1,32 @@
+ .img-full-width {
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, .8);
+    font-weight: 700;
+}
+
+/* Adjust the color and size of the "OUT OF STOCK" text */
+.caption h3 {
+    color: #4E7266; /* Change color as needed */
+    font-size: 24px; /* Change size as needed */
+}
+
+.btn {
+    background-color: #ffffff;
+    color: #4E7266;
+}
+
+.btn:hover {
+    background-color: #4E7266;
+    color: #ffffff;
+}
+
