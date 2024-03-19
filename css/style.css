@@ -17,7 +17,8 @@
 /* Adjust the color and size of the "OUT OF STOCK" text */
 .caption h3 {
     color: #4E7266; /* Change color as needed */
-    font-size: 24px; /* Change size as needed */
+    font-size: 30px; /* Change size as needed */
+    padding: 3px;
 }
 
 .btn {
@@ -29,4 +30,11 @@
     background-color: #4E7266;
     color: #ffffff;
 }
+
+@media (max-width: 768px) {
+    .card {
+        max-width: 100%;
+    }
+}
+
 
